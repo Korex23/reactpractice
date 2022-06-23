@@ -1,0 +1,70 @@
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #f8faf7;
+}
+
+/* Style the links inside the navigation bar */
+navbar {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  line-height: 39px;
+  max-lines: 64;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  font-weight: 500;
+  color: #115504;
+  float: right;
+}
+
+/* Change the color of links on hover */
+.navbar-nav a:hover {
+  background-color: #ffa111;
+  color: #ffffff !important;
+}
+
+/* Add an active class to highlight the current page */
+.navbar-nav a.active {
+  background-color: #f8faf7;
+  color: #115504;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+svg {
+  filter: invert(40%) sepia(24%) saturate(1093%) hue-rotate(62deg) brightness(93%) contrast(96%) !important;
+}
+
+/* Style Link For Footer Starts */
+footer {
+  background-color: #115504 !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white !important;
+  text-align: center;
+}
+
+.bg-success {
+  background-color: #115504 !important;
+}
+
+.text-success {
+  color: #115504 !important;
+}
+
+.nav-link {
+  color: #115504 !important;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.products {
+  background-image: url(../images/rectangle1.png);
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0px 1px;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(5, 104, 15, 0.5)),
+    url(./images/Farm.jpg) center/cover no-repeat;
+}
+
+/* .overlay { */
+/* background: radial-gradient(90deg, rgb(18, 102, 4) rgba(1, 210, 190, 0.5));
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
+
+.headerhold {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  color: rgb(240, 201, 6);
+  padding: 30px;
+  font-family: Poppins;
+}
+
+.navgator {
+  width: 400px;
+  display: flex;
+  color: rgb(138, 15, 15);
+  justify-content: space-between;
+  word-spacing: 3px;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 30px;
+  transform: scale(1.1);
+}
+
+.navgator a {
+  text-decoration: none;
+  width: 700em;
+  transition: 450ms;
+  color: rgb(255, 255, 255);
+}
+
+a :hover {
+  color: rgb(252, 252, 252);
+  transform: scale(1.1);
+  border-radius: 40px;
+}
+
+.hero_s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 80px;
+  margin-top: 100px;
+}
+
+.heroH1 :hover {
+  /* color: lightgoldenrodyellow; */
+  color: rgb(245, 168, 26);
+  transform: scale(1.1);
+}
+
+.herotext h1 {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: 400ms;
+  font-style: italic;
+}
+
+/* newstyle btn */
+.BtnStyle {
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.BtnStyle a {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  line-height: 55px;
+  margin: 10px;
+  text-transform: uppercase;
+  background: #ffa111;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.BtnStyle a span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  transition: 0s ease-in;
+}
+
+.BtnStyle a:hover span {
+  transition: 0.4s ease-in;
+  transform: translateY(-100%);
+}
+
+.BtnStyle a::before {
+  content: "";
+  position: absolute;
+  bottom: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 259px;
+  height: 250px;
+  color: aliceblue;
+  background: #115504;
+  border-radius: 50%;
+  transition: 0.4s ease-in;
+}
+
+.BtnStyle a:hover:before {
+  bottom: -150px;
+}
+
+.BtnStyle a:nth-child(2):before {
+  bottom: 60px;
+}
+
+.BtnStyle a:nth-child(2):hover:before {
+  bottom: -40px;
+}
+
+.AboutHero {
+  width: 100%;
+  height: 70%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(5, 104, 15, 0.5)),
+    url(./images/team.jpg) center/cover no-repeat;
+}
